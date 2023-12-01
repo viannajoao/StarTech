@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+<script>
+
+  let brockLine = "<br>";
+
+  function rocket(){
+    document.write(`<h1>Lancamento do foguete autorizado</h1>`)
+
+    troposfera()
+    estratosfera()
+    mesofera()
+    termosfera()
+    exosfera()
+
+    document.write(`<h3>**********(satelites)*************(Telescopios)******** </h3>${brockLine}`)
+
+    outExosfera()
+    outTermosfera()
+    outMesofera()
+    outEstratosfera()
+    outTroposfera()
+
+    document.write(`<h4>_________aterrisagem perfeita_________</h4>`)
+
+  }
+
+  // --------------------------------------  ENTRADA EM CADA CAMADA -----------------------------------------------------
+
+  function troposfera(){document.write(`========== ENTRANDO NA CAMADA TROPOSFERA [15KM] ============ ${brockLine}`)}
+  function estratosfera(){document.write(`========== ENTRANDO NA CAMADA ESTRATOSFERA [50KM] ============ ${brockLine}`)}
+  function mesofera(){document.write(`========== ENTRANDO NA CAMADA MESOFERA [80KM] ============ ${brockLine}`)}
+  function termosfera(){document.write(`========== ENTRANDO NA CAMADA TERMOSFERA [500KM] ============ ${brockLine}`)}
+  function exosfera(){document.write(`========== ENTRANDO NA CAMADA EXOSFERA [500KM] ============ ${brockLine}`)}
+
+
+  // ---------------------------------------- SAIDA DE CADA CAMADA ----------------------------------------
+
+  function outExosfera(){document.write(`========== SAINDO DA CAMADA EXOSFERA ============ ${brockLine}`)}
+  function outTermosfera(){document.write(`========== SAINDO DA CAMADA TERMOSFERA ============ ${brockLine}`)}
+  function outMesofera(){document.write(`========== SAINDO DA CAMADA MESOFERA ============ ${brockLine}`)}
+  function outEstratosfera(){document.write(`========== SAINDO DA CAMADA ESTRATOSFERA ============ ${brockLine}`)}
+  function outTroposfera(){document.write(`========== SAINDO DA CAMADA TERMOSFERA ============ ${brockLine}`)}
+
+  rocket()
+
+</script>
+
+
+
+</body>
+</html>

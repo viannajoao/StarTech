@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 5 - Listagem de usuarios</title>
+</head>
+<body>
+
+
+<script>
+  let fulano = 1980
+  let beltrano = 1981
+  let sicrano = 1984
+
+  document.write(`<div>
+    
+    <h1> >> Comex <<</h1>
+    <hr>
+
+    <h2>-Codigo: 1</h2>
+    <p>Nome: Fulano</p>
+    <p>Mes de Nascimento: Fevereiro</p>
+    <p>Ano de Nascimento: ${fulano}</p>
+    <hr>
+
+    <h2>-Codigo: 2</h2>
+    <p>Nome: Beltrano</p>
+    <p>Mes de Nascimento: Maio</p>
+    <p>Ano de Nascimento: ${beltrano}</p>
+    <hr>
+
+    <h2>-Codigo: 3</h2>
+    <p>Nome: Sicrano</p>
+    <p>Mes de Nascimento: Novembro</p>
+    <p>Ano de Nascimento: ${sicrano}</p>
+    <hr>
+
+
+    </div>`)
+
+    fulano = 2023 - 1980;
+    beltrano = 2023 - 1981;
+    sicrano = 2023 - 1984;
+
+    let somaIdades = fulano + beltrano + sicrano
+    let media = somaIdades / 3;
+
+    document.write(`
+    
+    <h3>*** Estaticias ***</h3>
+    <p>soma das idades: ${somaIdades}</p>
+    <p>Media da idades: ${Math.round(media)}</p>
+    <hr>
+
+    <h2>.::Alura LEVEL UP::.</h2>
+
+
+    ` )
+
+</script>
+
+
+
+</body>
+</html>
