@@ -19,8 +19,8 @@ public class Atividades {
     System.out.println("Nome: " + name);
     System.out.println("Ano de nascimento: " + year);
     System.out.println("-------------------------------------");
-    System.out.println("Nome: " + name);
-    System.out.println("Ano de nascimento: " + year);
+    System.out.println("Nome: " + name2);
+    System.out.println("Ano de nascimento: " + year2);
 
     int sair = 1;
 
